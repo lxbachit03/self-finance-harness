@@ -1,0 +1,7 @@
+# Override ~/.gitignore_global so this repo tracks its own harness files
+!docs-harness/
+!AGENTS.md
+!.agents/skills/goal-griller/
+!.agents/skills/typesafe-ai/
+!.agents/skills/utilizing-tools-agy/
+!.agents/skills/writing-for-agents/
