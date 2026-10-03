@@ -18,6 +18,7 @@ Harness folder: `docs-harness/` — "harness repo" means this folder, not the gi
 ## Mindsets
 
 - **Top-Down** — read `docs-harness/INDEX.md` before loading deeper content; load only what user intent requires.
+- **Model layer** — when the session runs on an AI model that has a matching file in `docs-harness/layers/layer-1/agents/` with frontmatter `enabled: true`, load only that file into context (protocol: `docs-harness/layers/layer-1/agents/README.md`); never load other models' instructions.
 
 ## Conventions
 
