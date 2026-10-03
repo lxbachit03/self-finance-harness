@@ -14,11 +14,13 @@ Harness folder: `docs-harness/` — "harness repo" means this folder, not the gi
 - **typesafe-ai** — use when a feature needs programmable AI judgment (TypeSafe / Jev) or AI-primitive design.
 - **utilizing-tools-agy** — use when asked to pick/leverage AGY built-in tools, MCPs, or skills.
 - **writing-for-agents** — use when writing or editing skills, AGENTS.md, CLAUDE.md, or agent-facing docs.
+- **enhance-jev-ai** — user-invoked (`$enhance-jev-ai`): enhance Jev for this harness per user intent with custom scripts (written to `.agents/skills/typesafe-ai/scripts/`).
 
 ## Mindsets
 
 - **Top-Down** — read `docs-harness/INDEX.md` before loading deeper content; load only what user intent requires.
 - **Model layer** — when the session runs on an AI model that has a matching file in `docs-harness/layers/layer-1/agents/` with frontmatter `enabled: true`, load only that file into context (protocol: `docs-harness/layers/layer-1/agents/README.md`); never load other models' instructions.
+- **Hook: Jev** — when user calls "Jev": load `docs-harness/JEV-AI.md` and follow its protocol (uses skill `typesafe-ai`). Hook: `docs-harness/layers/layer-2/hooks/jev-hook.md`.
 
 ## Conventions
 

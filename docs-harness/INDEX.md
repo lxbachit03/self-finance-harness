@@ -19,12 +19,16 @@ Domains are created only when work actually starts — none scaffolded yet.
 | Layers overview | `docs-harness/layers/README.md` | Purpose các tầng layers + quy tắc index/back-link/switch |
 | layer-1 agents protocol | `docs-harness/layers/layer-1/agents/README.md` | Load protocol instruction theo AI model |
 | Gemini 3.8 Flash (high) instruction | `docs-harness/layers/layer-1/agents/gemini-3.8-flash-high.md` | Instruction: thoroughness over speed (`enabled: true`) |
-| layer-2 hooks | `docs-harness/layers/layer-2/hooks/README.md` | Placeholder — chưa định nghĩa |
+| Jev hook | `docs-harness/layers/layer-2/hooks/jev-hook.md` | Hook: trigger `Jev` → target JEV-AI.md |
+| JEV-AI instruction | `docs-harness/JEV-AI.md` | Jev trợ lý quyết định của harness; hook trigger `Jev` |
+| Jev scripts | `.agents/skills/typesafe-ai/scripts/` | Transport + enhancement scripts (`invoke-typesafe.ps1`) |
+| Improvement audit template | `docs-harness/harness-improvements/_TEMPLATE.md` | Template cho audit log |
+| Audit logs | `docs-harness/harness-improvements/` | Log mọi improvement session |
 
 ## Quick state
 
 - Active domains: 0 (3 planned)
-- Skills: 6
-- Layers: layer-1 agents — 1 instruction active (`gemini-3.8-flash-high`), layer-2 placeholder
+- Skills: 7
+- Layers: layer-1 agents (1 instruction active: `gemini-3.8-flash-high`), layer-2 hooks (1 hook: `Jev`)
 - Output convention: dated analysis documents per domain, in Vietnamese
 - Last improvement: 2026-10-03 (layers structure)
